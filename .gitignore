@@ -1,0 +1,43 @@
+# ==============================================================================
+# Large Model Weights (>100 MB Limit - Hosted on Hugging Face Model Hub)
+# https://huggingface.co/iamabhayaditya/InceptionResNetV2-UNet-MBRSC
+# ==============================================================================
+*.keras
+*.h5
+InceptionResNetV2-UNet_fp32.tflite
+InceptionResNetV2-UNet_static_int8.tflite
+
+# Note: InceptionResNetV2-UNet_int8.tflite (35.89 MB) is tracked for edge testing.
+
+# ==============================================================================
+# Raw & Augmented Image Datasets (MBRSC / Humans in the Loop)
+# ==============================================================================
+aug_images/
+aug_masks/
+combined_dataset/
+MBRSC dataset/
+*.zip
+*.tar
+*.tar.gz
+
+# ==============================================================================
+# Python, Virtual Environments & Jupyter Caches
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ==============================================================================
+# OS & Editor Artifacts
+# ==============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

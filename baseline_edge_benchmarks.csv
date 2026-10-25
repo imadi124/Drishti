@@ -1,0 +1,2 @@
+Model,Total Params (M),Trainable Params (M),Disk Size (MB),GPU Latency (ms),GPU Throughput (FPS),CPU Latency (ms),CPU Throughput (FPS)
+Baseline InceptionResNetV2-UNet,36.79,36.75,423.14,638.39,1.57,4693.27,0.21
